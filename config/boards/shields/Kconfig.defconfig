@@ -1,0 +1,16 @@
+if SHIELD_PULSE_GRIP_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Pulse Grip"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PULSE_GRIP_LEFT || SHIELD_PULSE_GRIP_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

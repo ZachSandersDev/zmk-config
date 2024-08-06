@@ -1,0 +1,5 @@
+config SHIELD_PULSE_GRIP_LEFT
+    def_bool $(shields_list_contains,pulse_grip_left)
+
+config SHIELD_PULSE_GRIP_RIGHT
+    def_bool $(shields_list_contains,pulse_grip_right)
