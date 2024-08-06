@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: pulse_grip
+    shield: pulse_grip_left
   - board: nice_nano_v2
-    shield: pulse_grip
+    shield: pulse_grip_right
