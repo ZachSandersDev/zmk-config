@@ -23,10 +23,10 @@
 
         num {
             bindings = <
-&kp APOS   &kp AT     &kp POUND  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp DOUBLE_QUOTES
-&kp EXCL   &kp N2     &kp N3     &kp N4    &kp N5       &kp N6     &kp N7    &kp N8    &kp N9     &kp RPAR
-&kp N1     &kp GRAVE  &kp LBRC   &kp RBRC  &kp MINUS    &kp UNDER  &kp LBKT  &kp RBKT  &kp EQUAL  &kp N0
-&kp TILDE  &trans     &trans     &trans    &trans       &trans     &trans    &trans    &trans     &kp PLUS
+&trans     &kp AT     &kp POUND  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp BACKSLASH  &kp EQUAL          &trans
+&kp EXCL   &kp N2     &kp N3     &kp N4    &kp N5       &kp N6     &kp N7    &kp N8         &kp N9             &kp PLUS
+&kp N1     &kp GRAVE  &kp LBRC   &kp RBRC  &kp MINUS    &kp UNDER  &kp LBKT  &kp RBKT       &kp DOUBLE_QUOTES  &kp N0
+&kp TILDE  &trans     &trans     &trans    &trans       &trans     &trans    &trans         &trans             &kp SINGLE_QUOTE
             >;
         };
 
